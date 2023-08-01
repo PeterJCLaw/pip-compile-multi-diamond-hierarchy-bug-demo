@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd $(dirname $0)/..
+
+pip-compile-multi --annotate-index --autoresolve --no-upgrade --use-cache "$@"

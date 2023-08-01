@@ -1,0 +1,5 @@
+-r root.in
+
+# Force editable install locally (we can't do this in prod as we do want to copy
+# the package files as part of the install in that case).
+-e file:./pkgs/my-common-utils
